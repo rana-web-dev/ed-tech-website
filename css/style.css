@@ -1,0 +1,67 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Custom CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'poppins', sans-serif;
+    list-style: none;
+    text-decoration: none!important;
+}
+
+/* Navigation Start */
+.nav-link:not(.regi-a) {
+    font-weight: 600;
+    padding: 0 25px!important;
+}
+.regi-a:hover {
+    transition: all 0.2s ease-out;
+}
+.regi-a:hover {
+    background-color: green;
+    color: #fff!important;
+}
+
+/* Carousel */
+.carousel .c-content1 {
+    background-image: url('/images/cover/cover-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item {
+    width: 100%;
+    min-height: 600px;
+    background-color: red;
+}
+.carousel-item1 {
+    background-image: linear-gradient(#0000004f, #0000004f), url('/images/cover/cover-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-item2 {
+    background-image: linear-gradient(#0000004f, #0000004f), url('/images/cover/cover-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.carousel-item3 {
+    background-image: linear-gradient(#0000004f, #0000004f), url('/images/cover/cover-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+/* Responsive Start */
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex-grow: 0!important;
+    }
+    .carousel-content1 {
+        width: 50%!important;
+    }
+}
