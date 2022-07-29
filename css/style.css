@@ -73,3 +73,12 @@
         width: 50%!important;
     }
 }
+@media (max-width: 768px) {
+    .courses-items .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .courses-items .course-img {
+        width: 100%!important;
+    }
+}
