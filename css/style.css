@@ -78,7 +78,28 @@
         display: flex;
         flex-direction: column;
     }
-    .courses-items .course-img {
+    .courses-items .col-4 {
         width: 100%!important;
+    }
+    .courses-items .col-4 img {
+        padding-bottom: 35px;
+    }
+    .instituted .row {
+        display: flex!important;
+        flex-direction: column;
+    }
+    .instituted .row .col-5 {
+        width: 100%;
+    }
+    .instituted .row .col-5 img {
+        width: 100%;
+        padding-bottom: 50px;
+
+    }
+    .instituted .row .col-7 {
+        width: 100%;
+    }
+    .instituted-content{
+        text-align: center;
     }
 }
