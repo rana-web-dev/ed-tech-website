@@ -53,7 +53,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
-
+/* Student Meet */
+.meet-student {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
 
 
 /* Responsive Start */
